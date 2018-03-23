@@ -1,5 +1,11 @@
 @import "bootstrap";
 
+.navbar {
+  padding: 10px 30px;
+  font-family: "Helvetica Neue", Helvetica;
+  font-weight: 200;
+  }
+
 .btn-outline-success {
     color: #db5cdb;
     background-image: none;
@@ -11,3 +17,12 @@
   background-color: #ad47ad;
   border-color: #ad47ad;
 }
+
+.navbar-inverse a.navbar-brand {
+  font-family: 'Faster One', cursive;
+  font-weight: 100;
+  font-size: 50px;
+
+}
+
+.navbar-inverse .navbar-toggler { margin: 25px 15px; border-color: #db5cdb}
