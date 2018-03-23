@@ -1,1 +1,13 @@
 @import "bootstrap";
+
+.btn-outline-success {
+    color: #db5cdb;
+    background-image: none;
+    background-color: transparent;
+    border-color: #db5cdb;
+}
+
+.btn-outline-success:hover {
+  background-color: #ad47ad;
+  border-color: #ad47ad;
+}
