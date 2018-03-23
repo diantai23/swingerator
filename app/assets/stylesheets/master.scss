@@ -1,16 +1,36 @@
 @import "bootstrap";
 
+@media only screen and (max-width: 560px) {
+  .navbar { padding: 20px 20px !important; }
+  .navbar-inverse a.navbar-brand { font-size: 38px !important; }
+  .navbar-inverse .navbar-toggler { margin: 18px 0 !important; }
+}
+
+@media only screen and (max-width: 413px) {
+  .navbar-inverse a.navbar-brand { font-size: 28px !important; }
+  .navbar-inverse .navbar-toggler { margin: 7px 0 !important; }
+}
+
 .navbar {
   padding: 10px 30px;
   font-family: "Helvetica Neue", Helvetica;
   font-weight: 200;
-  }
+}
+
+.navbar-inverse a.navbar-brand {
+  font-family: 'Faster One', cursive;
+  font-weight: 100;
+  font-size: 50px;
+}
+
+.form-control { border-radius: 20px; }
 
 .btn-outline-success {
     color: #db5cdb;
     background-image: none;
     background-color: transparent;
     border-color: #db5cdb;
+    border-radius: 20px;
 }
 
 .btn-outline-success:hover {
@@ -18,11 +38,6 @@
   border-color: #ad47ad;
 }
 
-.navbar-inverse a.navbar-brand {
-  font-family: 'Faster One', cursive;
-  font-weight: 100;
-  font-size: 50px;
-
+.navbar-inverse .navbar-toggler {
+  margin: 25px 15px;
 }
-
-.navbar-inverse .navbar-toggler { margin: 25px 15px; border-color: #db5cdb}
