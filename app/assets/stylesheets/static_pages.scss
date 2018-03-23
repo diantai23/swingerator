@@ -1,6 +1,12 @@
 // Place all the styles related to the static_pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+@media only screen and (max-width: 900px) {
+  .feature {  height: 200px !important; } 
+}
+
+
 @media only screen and (max-width: 413px) {
   .hero img { width: 100% !important; height: auto !important; }
 }
@@ -19,8 +25,7 @@ h1, h2, h3, h4, h5, h6, .navbar {
   -o-background-size: cover;
   background-size: cover;
   height: 500px;
-  padding: 250px 50px 0;
-  box-shadow: 0px 3px 8px #2a2a2a;
+  padding: 300px 50px 0;
 }
 
 .black { background: #000; color: #fff; display: inline-block; padding: 10px 20px; }
@@ -30,4 +35,18 @@ h1, h2, h3, h4, h5, h6, .navbar {
   font-family: "Helvetica Neue", Helvetica;
   font-weight: 100;
   text-shadow: rgba(0, 0, 0, 0.95) 1px 1px;
+}
+
+.container-features { width: 75%; margin: 0 auto; }
+
+.features {
+
+  // padding-left: 5%;
+  // padding-right: 5%;
+}
+
+.feature {
+  margin: 2%;
+  background-color: grey;
+  height: 300px;
 }
